@@ -87,3 +87,35 @@ li a {
     max-width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  .about, .about_img {
+      width: 100%;
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+  .about_img {
+      margin-top: 0;
+      margin-bottom: 20px;
+      text-align: center;
+      order: -1;
+  }
+  .about_img img {
+      max-width: 250px;
+      margin: 0 auto;
+  }
+  .col-md-offset-1 {
+      margin-left: 0;
+  }
+  ul {
+      padding-left: 0;
+  }
+  ul li {
+      display: inline-block;
+      margin-right: 15px;
+  }
+  .row {
+      display: flex;
+      flex-direction: column;
+  }
+}
