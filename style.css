@@ -8,14 +8,6 @@ body {
 .container {
     width: 100%;
 }
-/*body {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}*/
-.starter-template {
-  /*padding: 40px 15px;*/
-  /*text-align: center;*/
-}
 
 p {
     font-size: 17px;
@@ -27,11 +19,6 @@ img {
   height: auto;
   margin: auto;
 }
-
-.row{
-	/*margin: 20px;*/
-}
-
 
 ul {
     list-style-type: none;
