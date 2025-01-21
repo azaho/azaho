@@ -1,16 +1,17 @@
-## Hi there 👋
+# Andrii Zahorodnii
 
-<!--
-**azaho/azaho** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Email: zaho [at] mit [dot] edu
 
-Here are some ideas to get you started:
+[GitHub](https://github.com/azaho) | [LinkedIn](https://www.linkedin.com/in/zaho/) | [Google Scholar](https://scholar.google.com/citations?user=je-fgs8AAAAJ&hl=en) | [Personal Website](https://azaho.org)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About Me
+
+I earned my undergraduate degree and am currently a master's student at [MIT](https://www.mit.edu/) in Computer Science and Brain and Cognitive Sciences. I am interested in the intersection of **neuroscience and ML**, especially self-supervised **feature learning using human neural data at scale**.
+
+I am currently advised by [Ila Fiete](https://fietelab.mit.edu/), and in the past by [Guangyu Robert Yang](https://www.linkedin.com/in/robert-yang-41a83019).
+
+I co-founded the [Ukraine Leadership and Technology Academy](https://ultacademy.org/) to equip brilliant young Ukrainians with the skills, knowledge, and confidence they need to rebuild Ukraine into a thriving, European nation. I also won the [Schwarzman Scholarship](https://news.mit.edu/2025/mit-students-named-schwarzman-scholars-0115) (class of 2026).
+
+## Publications and Writing
+
+Please see my [personal website](https://azaho.org) for a list of publications and writing.
