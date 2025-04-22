@@ -7,7 +7,8 @@
         <title>Andrii Zahorodnii</title>
 
         <!-- style -->
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="/style.css">
+        <link rel="stylesheet" type="text/css" href="../style.css">
 
         <!-- Latest compiled and minified CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -24,30 +25,51 @@
     <p class="col-md-offset-1"> zaho [at] mit [dot] edu </p>
     <!--- <p class="lead">undergrad studying cs and math<br> </p> -->
     <ul class="col-md-offset-1">
-      <li><a href=".">Home</a></li> 
+      <li><a href="/">Home</a></li> 
       <li> <a href="https://github.com/azaho" target="_blank">GitHub</a></li>
       <li> <a href="https://www.linkedin.com/in/zaho/" target="_blank">LinkedIn</a></li> 
       <li> <a href="https://scholar.google.com/citations?user=je-fgs8AAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-      <li> <a href="#writing">Writing</a></li>
+      <li> <a href="/#writing">Writing</a></li>
     </ul>
     </div><!-- /.container -->
 
-    <div class="container" style="margin-top: 20px;">
-        <h2 class="col-md-offset-1">About</h2>
+    <div class="container" id="writing">
+        <h2 class="col-md-offset-1">Research Proposal for Precision Neuroscience</h2>
         <hr>
         <div class="row">
-            <div class="col-md-offset-1 col-md-5 col-xs-12 about" style="margin-top: 0;">
-                <p>
-                    I earned my undergraduate degree and am currently a master's student at <a href="https://www.mit.edu/" target="_blank">MIT</a> in Computer Science and Brain and Cognitive Sciences. 
-                    I am interested in the intersection of <b>neuroscience and ML</b>, especially self-supervised <b>feature learning</b> using <b>human neural data at scale</b>. <!-- to better decode and change the brain state across individuals. -->
-                    I am currently advised by Prof. <a href="https://fietelab.mit.edu/" target="_blank">Ila Fiete</a>, and in the past by <a href="https://www.linkedin.com/in/robert-yang-41a83019" target="_blank">Guangyu Robert Yang</a>. 
-                    <br/><br/>
-                    I co-founded the <a href="https://ultacademy.org/" target="_blank">Ukraine Leadership and Technology Academy</a> to equip young Ukrainians with the skills, knowledge, and confidence they need to rebuild Ukraine into a thriving, European nation.
-                    I won the <a href="https://news.mit.edu/2025/mit-students-named-schwarzman-scholars-0115" target="_blank">Schwarzman Scholarship</a> and am a <a href="https://cerebras.ai/blog/aibi-revolutionizing-ai-interviewing" target="_blank">Cerebras Fellow</a>. I co-organize <a href="https://tedx.mit.edu/team" target="_blank">TEDxMIT</a>. I was awarded the 2025 Glushko Prize for Outstanding Research (4/17/2025). 
-                </p>
-            </div>
-            <div class="col-md-offset-1 col-md-3 col-xs-12 about_img">
-                <img class="img-responsive" src="andrii_picture.enc" style="border-radius: 50%;">
+            <div class="col-md-offset-1 col-md-10">
+<p><i>I do research with Prof. Ila Fiete at MIT, developing self-supervised feature extraction models for human ECoG (see figure), with applications to intraoperative mapping and BCI. I'd love to advance this agenda working at Precision. Please contact me at zaho [at] mit [dot] edu. </i></p>
+<hr>
+
+<p>
+<b>Proposal: Model-enabled, high-resolution intraoperative mapping with Layer 7.</b>
+<br/>
+• Accurate intraoperative mapping is crucial, but current manual protocols are not scalable to high channel counts.
+<br/>
+• What if: the neurologist classifies only 20-30 LFP channels (e.g. normal / abnormal spiking), then we use a pretrained foundation model to extend those labels across all 1000+ channels in real time. The surgeon can freely move the device on the brain and interactively observe the classification boundary.
+<br/>
+• The labels still come intraoperatively from a neurologist. This is why I believe this will work.
+<img src="/precision/proposal.jpg">
+</p>
+
+<p>
+<b>Validation of the model on human SEEG.</b> From first principles, I proposed and created a foundation model architecture, pretrained it on autoregressive LFP prediction with no labels, and achieved promising preliminary results on a publicly available human SEEG dataset: the BrainTreebank, where subjects watched naturalistic movies. The resulting model enabled stronger decoding of speech onset events than the raw voltage inputs.
+<br/><br/>
+<p>
+<img src="/precision/decoding_accuracy.jpg">
+</p>
+<b>Model details:</b>
+<br/>
+• Causal transformer, 5 layers, d_model=128, 4 attention heads per block
+<br/>
+• Sampling rate=2048 Hz
+<br/>
+• Trained for 1000 steps with batch size 128 with the contrastive loss (as in Figure 1)
+<br/>
+• Using the Muon optimizer, lr=0.003, no weight decay
+</p>
+
+
             </div>
         </div>
     </div>
@@ -209,22 +231,10 @@
         </div>
     </div>
 
-    <div class="container" id="writing" style="margin-top: 20px;">
-        <h2 class="col-md-offset-1">Writing</h2>
-        <hr>
-        <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-                <p><a href="/writing/2023_MOOCs_for_ULTA.pdf">How to make Massive Open Online Courses work for Ukraine Leadership and Technology Academy</a> (ULTA; 2023)</p>
-                <hr>
-                <p><a href="/writing/leadership_journey.html">My journey of leadership: creating ULTA</a></p>
-                <!-- <hr><p><a href="/writing/purpose_statement_ss.html">My Statement of Purpose</a> [Schwarzman Scholars essay]</p> -->
-            </div>
-        </div>
-    </div>
-
-    <div class="container" style="margin-top: 60px;">
+    <div class="container">
         <div class="col-md-offset-1">
-            <span style="color: gray; font-size: 0.8em;">This website template was inspired by that of Christopher Wang at MIT.</span>
+            <hr>
+            <span style="color: gray;">This website template was inspired by that of Christopher Wang at MIT.</span>
         </div>
     </div>
     </body>
