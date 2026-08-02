@@ -6,9 +6,9 @@ Email: ✉️ zaho [at] mit [dot] edu
 
 ## About Me 👋
 
-I earned my undergraduate degree and am currently a master's student at [MIT](https://www.mit.edu/) in Computer Science and Brain and Cognitive Sciences. I am interested in the intersection of **neuroscience and ML**, especially self-supervised **feature learning using human neural data at scale**.
+I am a Member of Technical Staff at [Merge Labs](https://merge.io/), working at the intersection of neuroscience and machine learning.
 
-I am currently advised by [Ila Fiete](https://fietelab.mit.edu/), and in the past by [Guangyu Robert Yang](https://www.linkedin.com/in/robert-yang-41a83019).
+I completed my undergraduate and master's studies at [MIT](https://www.mit.edu/) in Computer Science and Brain and Cognitive Sciences, where my research focused on representation learning from large-scale human neural recordings. At MIT, I was advised by [Ila Fiete](https://fietelab.mit.edu/) and previously worked with [Guangyu Robert Yang](https://www.linkedin.com/in/robert-yang-41a83019).
 
 I co-founded the [Ukraine Leadership and Technology Academy](https://ultacademy.org/) to equip brilliant young Ukrainians with the skills, knowledge, and confidence they need to rebuild Ukraine into a thriving, European nation. I also won the [Schwarzman Scholarship](https://news.mit.edu/2025/mit-students-named-schwarzman-scholars-0115) (class of 2026), and am a [Cerebras Fellow](https://cerebras.ai/blog/aibi-revolutionizing-ai-interviewing). I co-organize [TEDxMIT](https://tedx.mit.edu/team).
 
