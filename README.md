@@ -15,3 +15,30 @@ I co-founded the [Ukraine Leadership and Technology Academy](https://ultacademy.
 ## Publications and Writing
 
 Please see my [personal website](https://azaho.org) for a list of publications and writing.
+
+## CV
+
+The CV is generated from [`cv/cv.json`](cv/cv.json), the single source of truth for all current and optional entries. Each item has an `include_by_default` flag. The default selection reproduces the February 2026 CV; older material is retained with the flag set to `false`.
+
+Useful commands:
+
+```bash
+# Show default and optional item IDs.
+python3 cv/build.py --list
+
+# Regenerate the default LaTeX file.
+python3 cv/build.py
+
+# Add one optional entry to a custom build.
+python3 cv/build.py --include promys-europe --output /tmp/cv-with-promys.tex
+
+# Include every optional item and optional bullet.
+python3 cv/build.py --all --output /tmp/cv-complete.tex
+
+# Build the default PDF with the existing TeX Live 2024 installation.
+make cv
+```
+
+The Makefile uses `~/texlive/2024/bin/universal-darwin`, the same pinned TeX Live installation used by the SMI manuscript. Override `TEXBIN` if that installation moves.
+
+Pushing a change to the JSON, generator, or template runs [the CV workflow](.github/workflows/build-cv.yml). It regenerates the LaTeX source, compiles `cv/andrii-zahorodnii-cv.pdf`, and commits the current generated files. The website's **CV (PDF)** navigation link always points to that stable path.

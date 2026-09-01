@@ -1,0 +1,566 @@
+{
+  "schema_version": 1,
+  "document": {
+    "name": "Andrii Zahorodnii",
+    "email": "zaho [at] mit [dot] edu",
+    "website": "https://azaho.org",
+    "output_basename": "andrii-zahorodnii-cv",
+    "default_profile": "February 2026",
+    "source_project": "https://www.overleaf.com/project/67a11b5893303410da4f3e63",
+    "source_file": "cv_merge_19_02_2026.tex"
+  },
+  "sections": [
+    {
+      "id": "education",
+      "title": "EDUCATION",
+      "items": [
+        {
+          "id": "mit-meng",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Massachusetts Institute of Technology",
+          "date": "February 2026",
+          "subtitle": "Master of Engineering in Computer Science and Brain and Cognitive Sciences",
+          "location": "",
+          "bullets": [],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "mit-bs",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Massachusetts Institute of Technology",
+          "date": "May 2024",
+          "subtitle": "Bachelor of Science in Computer Science and Brain and Cognitive Sciences [GPA: 5.0/5.0]",
+          "location": "Cambridge, MA, USA",
+          "bullets": [],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "taras-shevchenko-applied-math",
+          "type": "subheading",
+          "include_by_default": false,
+          "title": "Taras Shevchenko National University of Kyiv",
+          "date": "September 2020 - May 2021",
+          "subtitle": "Applied Mathematics",
+          "location": "Kyiv, Ukraine",
+          "bullets": [
+            {
+              "text": "Coursework: Real Analysis, Linear Algebra, Abstract Algebra, Computer Science",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["old.tex"]
+        },
+        {
+          "id": "promys-europe",
+          "type": "subheading",
+          "include_by_default": false,
+          "title": "PROMYS Europe 2019",
+          "date": "Summer 2019",
+          "subtitle": "Program in Mathematics for Young Scientists",
+          "location": "University of Oxford, United Kingdom",
+          "bullets": [
+            {
+              "text": "Coursework: Number Theory",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["old.tex"]
+        }
+      ]
+    },
+    {
+      "id": "experience",
+      "title": "EXPERIENCE",
+      "items": [
+        {
+          "id": "merge-labs-mts",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Member of Technical Staff",
+          "date": "February 2026 - Present",
+          "subtitle": "Merge Labs",
+          "location": "San Francisco, CA",
+          "bullets": [
+            {
+              "text": "Bridging biological and artificial intelligence to maximize human ability, agency, and experience. NeuroML and Human Neuro teams.",
+              "include_by_default": true
+            },
+            {
+              "text": "Intersection of neuroscience and machine learning: representation learning, brain foundation models",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "mit-fiete-lab",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "McGovern Institute for Brain Research at MIT",
+          "date": "February 2024 - Present",
+          "subtitle": "Graduate Researcher -> Research Affiliate, MIT Fiete Lab (Prof. Ila Fiete)",
+          "location": "Cambridge, MA",
+          "bullets": [
+            {
+              "text": "Modeling neural dynamics of human intracranial data (sEEG/ECoG), in order to build predictive models of neural responses to sensory stimuli and direct intracranial electrical stimulation. The goal is to optimize stimulation protocols to achieve desired, pre-determined stimulation responses in the brain.",
+              "include_by_default": true
+            },
+            {
+              "text": "Leading a team of 3 undergraduate & master's students. PyTorch, GPU-optimized computing, large-scale self-supervised training runs.",
+              "include_by_default": true
+            },
+            {
+              "text": "Created the Neuroprobe benchmark to evaluate foundation models of intracranial neural activity based on a publicly available neural dataset (BrainTreebank; sEEG; Zahorodnii et al. 2025).",
+              "include_by_default": true
+            },
+            {
+              "text": "Project concept: leverage dynamical-systems analysis to build better brain-computer interfaces and protocols for extracting symbolic representations from brain signals.",
+              "include_by_default": false
+            },
+            {
+              "text": "Project concept: develop algorithms to assess scientific-paper quality from noisy individual evaluations, addressing misaligned incentives and limited access in scientific publishing.",
+              "include_by_default": false
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex", "main_final_bih.tex", "main_final_bih_gs.tex"]
+        },
+        {
+          "id": "bidmc-research-fellow",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Research Fellow",
+          "date": "May 2025 - Present",
+          "subtitle": "Beth Israel Deaconess Medical Center (under Dr. Joshua Aronson)",
+          "location": "Boston, MA",
+          "bullets": [
+            {
+              "text": "Established the collaboration with my P.I. (Prof. Ila Fiete's) group at MIT, with my role in the design of novel sEEG experiments: studying rapid processing of visual stimuli and eliciting brain responses to direct intracranial electrical stimulation.",
+              "include_by_default": true
+            },
+            {
+              "text": "Drafted and submitted the experimental protocol for IRB review.",
+              "include_by_default": true
+            },
+            {
+              "text": "Developed the software for the SEEG Rapid Serial Visual Presentation (RSVP) paradigm task, and currently am enrolling SEEG patients at BIDMC to the study and leading the data collection.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex", "cv_phd_11_25.tex"]
+        },
+        {
+          "id": "mit-metaconscious",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Undergraduate Research Assistant",
+          "date": "June 2022 - February 2024",
+          "subtitle": "MIT MetaConscious Group (Prof. Guangyu Robert Yang)",
+          "location": "Cambridge, MA",
+          "bullets": [
+            {
+              "text": "Mechanistically interpreted the infinite space of mechanisms that neural networks can use to prevent new sensory inputs from overwriting memories. Proposed that flexibly combining multiple mechanisms is a common strategy.",
+              "include_by_default": true
+            },
+            {
+              "text": "Analyzing monkey brain data, identified differences in strategies of artificial and biological neural networks.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "university-of-sydney-shinelab",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Undergraduate Research Assistant",
+          "date": "June 2023 - August 2023",
+          "subtitle": "ShineLab at the University of Sydney (P.I. James M. Shine)",
+          "location": "Sydney, Australia",
+          "bullets": [
+            {
+              "text": "Collaborating with members of the lab, built models and developed new analysis methods to investigate neuromodulatory influence on cognitive processing in the human brain.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "razemc",
+          "type": "subheading",
+          "include_by_default": false,
+          "title": "RazeMC Minecraft Community",
+          "date": "March 2021 - Present",
+          "subtitle": "Co-Creator",
+          "location": "",
+          "bullets": [
+            {
+              "text": "Created an extensive game modification: a Java project of more than 12,000 lines.",
+              "include_by_default": true
+            },
+            {
+              "text": "Selected and oversaw a team of staff who helped run the server.",
+              "include_by_default": true
+            },
+            {
+              "text": "Explored and implemented advertising through YouTube partnerships, social media, and websites.",
+              "include_by_default": true
+            },
+            {
+              "text": "Approximately 6,000 players played for a combined total of more than 33,000 hours.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["old.tex"]
+        },
+        {
+          "id": "idpho-team-leader",
+          "type": "subheading",
+          "include_by_default": false,
+          "title": "International Distributed Physics Olympiad",
+          "date": "December 2020",
+          "subtitle": "Team Leader",
+          "location": "Online",
+          "bullets": [
+            {
+              "text": "Communicated with the Olympiad committee to register the only team representing Ukraine.",
+              "include_by_default": true
+            },
+            {
+              "text": "Assembled a team of five Ukrainian students, three of whom received awards.",
+              "include_by_default": true
+            },
+            {
+              "text": "Created an international competition opportunity after the 2020 International Physics Olympiad was cancelled.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["old.tex"]
+        }
+      ]
+    },
+    {
+      "id": "publications",
+      "title": "PUBLICATIONS",
+      "page_break_before": true,
+      "items": [
+        {
+          "id": "neuroprobe",
+          "type": "publication",
+          "include_by_default": true,
+          "authors_latex": "\\textbf{Zahorodnii, A.*}, Wang, C.*, Chau, G.*, Stankovits, B., Moraitaki, C., Gross, E., Brady, A., Barbu, A., Katz, B., Fiete, I. R.",
+          "year_venue": "2025, arXiv; under review at NeurIPS 2026 Datasets & Benchmarks Track",
+          "title": "Neuroprobe: Evaluating Intracranial Brain Responses to Naturalistic Stimuli",
+          "suffix": "",
+          "sources": ["cv_merge_19_02_2026.tex", "arXiv:2509.21671v2"]
+        },
+        {
+          "id": "sensory-memory-interference",
+          "type": "publication",
+          "include_by_default": true,
+          "authors_latex": "\\textbf{Zahorodnii, A.}, Mendoza-Halliday, D., Martinez-Trujillo, J. C., Qian, N., Desimone, R., Cueva, C. J.",
+          "year_venue": "2025, bioRxiv, under revision at Nature Neuroscience",
+          "title": "Overcoming Sensory-Memory Interference in Working Memory Circuits",
+          "suffix": "",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "world-models-linear-probes",
+          "type": "publication",
+          "include_by_default": true,
+          "authors_latex": "\\textbf{Zahorodnii, A.}",
+          "year_venue": "2025",
+          "title": "Improving World Models Using Linear Probes",
+          "suffix": "ICLR2025 Workshop on World Models & arXiv",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "peer-review-quality",
+          "type": "publication",
+          "include_by_default": true,
+          "authors_latex": "\\textbf{Zahorodnii, A.}, van den Bosch, J.J.F., Charest, I., Summerfield, C., Fiete, I. R.",
+          "year_venue": "2025, arXiv",
+          "title": "Paper Quality Assessment Based on Individual Wisdom Metrics from Open Peer Review",
+          "suffix": "",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "sensorimotor-adaptation",
+          "type": "publication",
+          "include_by_default": true,
+          "authors_latex": "Tan, J. B., Müller, E., \\textbf{Zahorodnii, A.}, Shine, J. M.",
+          "year_venue": "2024",
+          "title": "The Engagement of the Cerebellum and Basal Ganglia Enhances Expertise in a Sensorimotor Adaptation Task",
+          "suffix": "Imaging Neuroscience, 2:1-20. MIT Press",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "project-jenkins",
+          "type": "publication",
+          "include_by_default": true,
+          "authors_latex": "\\textbf{Zahorodnii, A.}, Yanovsky, D.",
+          "year_venue": "2025",
+          "title": "Project Jenkins: Monkey Thinks, Robot Moves... and Back?",
+          "suffix": "MIT (arXiv)",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        }
+      ]
+    },
+    {
+      "id": "conference-posters",
+      "title": "CONFERENCE POSTER PRESENTATIONS",
+      "items": [
+        {
+          "id": "ccn-2023-poster",
+          "type": "publication",
+          "include_by_default": true,
+          "authors_latex": "\\textbf{Zahorodnii, A.}, Cueva, C. J.",
+          "year_venue": "2023",
+          "title": "Overcoming sensory-memory interference in working memory circuits",
+          "suffix": "Cognitive Computational Neuroscience (CCN)",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "ccn-2024-poster",
+          "type": "publication",
+          "include_by_default": true,
+          "authors_latex": "\\textbf{Zahorodnii, A.}, Mendoza-Halliday, D., Qian, N., Desimone, R., Cueva, C. J.",
+          "year_venue": "2024",
+          "title": "Overcoming sensory-memory interference in working memory circuits",
+          "suffix": "Cognitive Computational Neuroscience (CCN)",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        }
+      ]
+    },
+    {
+      "id": "honors-awards",
+      "title": "HONORS & AWARDS",
+      "items": [
+        {
+          "id": "sigma-xi-full-member",
+          "type": "award",
+          "include_by_default": true,
+          "name": "Elected Full Member",
+          "organization": "Sigma Xi, The Scientific Research Honor Society",
+          "date": "September 2026",
+          "sources": ["Sigma Xi membership confirmation, September 1, 2026"]
+        },
+        {
+          "id": "glushko-prize",
+          "type": "award",
+          "include_by_default": true,
+          "name": "Robert J. Glushko Prize for Outstanding Research in Cognitive Sciences",
+          "organization": "Massachusetts Institute of Technology",
+          "date": "April 2025",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "schwarzman-scholarship",
+          "type": "award",
+          "include_by_default": true,
+          "name": "Schwarzman Scholarship",
+          "organization": "",
+          "date": "January 2025",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "cerebras-fellow",
+          "type": "award",
+          "include_by_default": true,
+          "name": "Cerebras Fellow",
+          "organization": "",
+          "date": "December 2024",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "bcs-academic-award",
+          "type": "award",
+          "include_by_default": true,
+          "name": "Outstanding Undergraduate Academic Award (2x)",
+          "organization": "Dept. of Brain and Cognitive Sciences, MIT",
+          "date": "April 2024, May 2023",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "tedxmit-event-award",
+          "type": "award",
+          "include_by_default": true,
+          "name": "Outstanding Event Award - TEDxMIT (2x)",
+          "organization": "Massachusetts Institute of Technology",
+          "date": "May 2023, May 2022",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "president-of-ukraine-award",
+          "type": "award",
+          "include_by_default": true,
+          "name": "Award of the President of Ukraine Volodymyr Zelenskyy",
+          "organization": "Office of the President of Ukraine",
+          "date": "July 2020",
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "idpho-silver",
+          "type": "award",
+          "include_by_default": true,
+          "name": "SILVER MEDAL",
+          "organization": "International distributed Physics Olympiad",
+          "date": "December 2020",
+          "sources": ["cv_merge_19_02_2026.tex", "old.tex"]
+        },
+        {
+          "id": "izho-bronze",
+          "type": "award",
+          "include_by_default": true,
+          "name": "BRONZE MEDAL",
+          "organization": "International Zhautykov Olympiad, physics team",
+          "date": "January 2020, Kazakhstan",
+          "sources": ["cv_merge_19_02_2026.tex", "old.tex"]
+        }
+      ]
+    },
+    {
+      "id": "teaching",
+      "title": "TEACHING EXPERIENCE",
+      "page_break_before": true,
+      "items": [
+        {
+          "id": "break-through-tech",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Teaching Assistant in Machine Learning",
+          "date": "June-December 2024 & June-December 2025",
+          "subtitle": "Break Through Tech AI at the MIT Schwarzman College of Computing",
+          "location": "Cambridge, MA",
+          "bullets": [
+            {
+              "text": "Bridge the talent gap for women and underrepresented genders in computing fields. I directly mentor six groups of university students, with each team working on a specific industry-oriented project in AI in collaboration with representatives from companies in the greater Boston area. I provide both technical as well as organizational guidance to underrepresented students as they make their first steps in AI.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "multi-program-instructor",
+          "type": "multi_subheading",
+          "include_by_default": true,
+          "title": "Instructor in Computer Science, Physics and Mathematics",
+          "affiliations": [
+            {
+              "organization": "National University of Singapore High School",
+              "date": "January 2024",
+              "location": "Singapore"
+            },
+            {
+              "organization": "Ukraine Leadership & Technology Academy",
+              "date": "August 2023 - Present",
+              "location": "Barcelona, Spain"
+            },
+            {
+              "organization": "Middle East Entrepreneurs of Tomorrow",
+              "date": "July - August 2022",
+              "location": "Jerusalem"
+            },
+            {
+              "organization": "Educational Studies Program, MIT",
+              "date": "November 2021 - April 2022",
+              "location": "Cambridge, MA"
+            }
+          ],
+          "bullets": [
+            {
+              "text": "Taught advanced web development to 40 high school students for three weeks (July 2022 - Aug. 2022).",
+              "include_by_default": true
+            },
+            {
+              "text": "Developed and taught short courses for 80 to 120 high school students in a physics and math curriculum.",
+              "include_by_default": true
+            },
+            {
+              "text": "Designed sessions and activities to engage and motivate students while teaching challenging material.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        }
+      ]
+    },
+    {
+      "id": "leadership",
+      "title": "LEADERSHIP EXPERIENCE",
+      "items": [
+        {
+          "id": "ulta-cofounder",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Co-Founder",
+          "date": "February 2023 - January 2025",
+          "subtitle": "Ukraine Leadership & Technology Academy (ULTA) --- www.ultacademy.org",
+          "location": "Cambridge, MA & Kyiv, Ukraine",
+          "bullets": [
+            {
+              "text": "Developed program's vision, curriculum and online presence. Researched effectiveness of various candidate educational technologies as part of the design stage.",
+              "include_by_default": true
+            },
+            {
+              "text": "Proactively collaborated with Ukrainian partners and MIT to create this new organization.",
+              "include_by_default": true
+            },
+            {
+              "text": "Ran the selection process of Ukrainian students (admissions from 725 applications) and instructors from MIT.",
+              "include_by_default": true
+            },
+            {
+              "text": "Coordinate and am in charge of two 2-week in person summer programs abroad.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        },
+        {
+          "id": "tedxmit-speaker-engagement",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "Speaker Engagement Chair",
+          "date": "March 2022 - Present",
+          "subtitle": "TEDxMIT Conference",
+          "location": "Cambridge, MA",
+          "bullets": [
+            {
+              "text": "Seek and invite speakers for every event. Through feedback, guide and coach speakers in developing their talks.",
+              "include_by_default": true
+            },
+            {
+              "text": "Run the TEDxMIT in-person events. Logistics, facilitation, speaker introduction.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["cv_merge_19_02_2026.tex"]
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "title": "SKILLS",
+      "items": [
+        {
+          "id": "software-and-languages",
+          "type": "skills",
+          "include_by_default": false,
+          "lines": [
+            {
+              "label": "Software",
+              "text": "Linux, GitHub, Python, MATLAB, C, C++, Java, JavaScript, HTML/CSS"
+            },
+            {
+              "label": "Languages",
+              "text": "English, Ukrainian, Russian (fluent), German (beginner)"
+            }
+          ],
+          "sources": ["main.tex", "old.tex"]
+        }
+      ]
+    }
+  ]
+}

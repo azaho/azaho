@@ -1,0 +1,9 @@
+/tmp/
+__pycache__/
+*.pyc
+/cv/*.aux
+/cv/*.fdb_latexmk
+/cv/*.fls
+/cv/*.log
+/cv/*.out
+/cv/*.xdv
