@@ -27,6 +27,11 @@ class BuildCvTests(unittest.TestCase):
         rendered = self.render()
         self.assertIn("Member of Technical Staff", rendered)
         self.assertIn("Merge Labs", rendered)
+        self.assertIn(
+            "Master of Engineering in Computer Science and Brain and Cognitive Sciences "
+            "[GPA: 5.0/5.0]",
+            rendered,
+        )
         self.assertIn("CONFERENCE POSTER PRESENTATIONS", rendered)
         self.assertIn("Elected Full Member", rendered)
         self.assertIn("Sigma Xi, The Scientific Research Honor Society", rendered)

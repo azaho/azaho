@@ -20,10 +20,10 @@
           "include_by_default": true,
           "title": "Massachusetts Institute of Technology",
           "date": "February 2026",
-          "subtitle": "Master of Engineering in Computer Science and Brain and Cognitive Sciences",
+          "subtitle": "Master of Engineering in Computer Science and Brain and Cognitive Sciences [GPA: 5.0/5.0]",
           "location": "",
           "bullets": [],
-          "sources": ["cv_merge_19_02_2026.tex"]
+          "sources": ["cv_merge_19_02_2026.tex", "User confirmation, September 1, 2026"]
         },
         {
           "id": "mit-bs",
