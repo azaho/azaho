@@ -63,6 +63,13 @@ class BuildCvTests(unittest.TestCase):
     def test_plain_text_is_latex_escaped(self) -> None:
         self.assertEqual(build.latex_escape("R&D_100%"), r"R\&D\_100\%")
 
+    def test_meng_graduation_details(self) -> None:
+        education = next(section for section in self.data["sections"] if section["id"] == "education")
+        meng = next(item for item in education["items"] if item["id"] == "mit-meng")
+        self.assertEqual(meng["date"], "February 2026")
+        self.assertEqual(meng["location"], "Cambridge, MA")
+        self.assertIn("[GPA: 5.0/5.0]", meng["subtitle"])
+
     def test_public_contact_line_omits_phone_and_mailto(self) -> None:
         rendered = self.render()
         self.assertIn("zaho [at] mit [dot] edu", rendered)
