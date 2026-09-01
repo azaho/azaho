@@ -1,0 +1,4 @@
+interface:
+  display_name: "Azaho CV"
+  short_description: "Maintain and consult Andrii’s canonical CV"
+  default_prompt: "Use $azaho-cv to update or consult my canonical CV."
