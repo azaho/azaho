@@ -250,7 +250,7 @@
           "type": "publication",
           "include_by_default": true,
           "authors_latex": "\\textbf{Zahorodnii, A.*}, Wang, C.*, Chau, G.*, Stankovits, B., Moraitaki, C., Gross, E., Brady, A., Barbu, A., Katz, B., Fiete, I. R.",
-          "year_venue": "2025, arXiv; under review at NeurIPS 2026 Datasets & Benchmarks Track",
+          "year_venue": "2025, arXiv",
           "title": "Neuroprobe: Evaluating Intracranial Brain Responses to Naturalistic Stimuli",
           "suffix": "",
           "sources": ["cv_merge_19_02_2026.tex", "arXiv:2509.21671v2"]
