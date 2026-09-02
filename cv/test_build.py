@@ -67,7 +67,7 @@ class BuildCvTests(unittest.TestCase):
         education = next(section for section in self.data["sections"] if section["id"] == "education")
         meng = next(item for item in education["items"] if item["id"] == "mit-meng")
         self.assertEqual(meng["date"], "February 2026")
-        self.assertEqual(meng["location"], "Cambridge, MA")
+        self.assertEqual(meng["location"], "Cambridge, MA, USA")
         self.assertIn("[GPA: 5.0/5.0]", meng["subtitle"])
 
     def test_public_contact_line_omits_phone_and_mailto(self) -> None:
