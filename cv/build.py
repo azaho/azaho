@@ -161,7 +161,7 @@ def render_publication(item: dict[str, Any]) -> str:
 
 
 def render_awards(items: list[dict[str, Any]]) -> list[str]:
-    lines = [r"\begin{tabularx}{\textwidth}{@{}Xr@{}}", r"  \small"]
+    lines = [r"{\small", r"\begin{tabularx}{\textwidth}{@{}Xr@{}}"]
     for index, item in enumerate(items):
         organization = item.get("organization", "").strip()
         organization_latex = f" --- {latex_escape(organization)}" if organization else ""
@@ -170,7 +170,7 @@ def render_awards(items: list[dict[str, Any]]) -> list[str]:
             f"    \\textbf{{{latex_escape(item['name'])}}}{organization_latex} "
             f"& {{\\color{{dark-grey}} {latex_escape(item['date'])}}}{spacing}"
         )
-    lines.append(r"\end{tabularx}")
+    lines.extend([r"\end{tabularx}", "}"])
     return lines
 
 

@@ -35,6 +35,10 @@ class BuildCvTests(unittest.TestCase):
         self.assertIn("CONFERENCE POSTER PRESENTATIONS", rendered)
         self.assertIn("Elected Full Member", rendered)
         self.assertIn("Sigma Xi, The Scientific Research Honor Society", rendered)
+        self.assertIn(
+            "{\\small\n\\begin{tabularx}{\\textwidth}{@{}Xr@{}}",
+            rendered,
+        )
         self.assertIn("Chau, G.*", rendered)
         self.assertIn("Gross, E.", rendered)
         self.assertIn("Brady, A.", rendered)
