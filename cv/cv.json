@@ -112,7 +112,7 @@
               "include_by_default": true
             },
             {
-              "text": "Intersection of neuroscience and machine learning: representation learning, brain foundation models",
+              "text": "Intersection of neuroscience and machine learning: representation learning, brain foundation models.",
               "include_by_default": true
             }
           ],
@@ -160,19 +160,19 @@
           "location": "Boston, MA",
           "bullets": [
             {
-              "text": "Established the collaboration with my P.I. (Prof. Ila Fiete's) group at MIT, with my role in the design of novel sEEG experiments: studying rapid processing of visual stimuli and eliciting brain responses to direct intracranial electrical stimulation.",
+              "text": "Established and lead a joint research project between MIT's Fiete Lab (Prof. Ila Fiete) and BIDMC, spanning experimental design, hardware integration, work with patients, data collection, model development, and testing.",
               "include_by_default": true
             },
             {
-              "text": "Drafted and submitted the experimental protocol for IRB review.",
+              "text": "Study how the human brain responds to rapidly presented images and direct electrical stimulation, using implanted electrodes (sEEG). Build and test predictive models to design stimulation protocols that produce desired brain responses.",
               "include_by_default": true
             },
             {
-              "text": "Developed the software for the SEEG Rapid Serial Visual Presentation (RSVP) paradigm task, and currently am enrolling SEEG patients at BIDMC to the study and leading the data collection.",
+              "text": "Drafted and submitted the experimental protocol for IRB review. Developed the software for the Rapid Serial Visual Presentation (RSVP) task; currently enroll patients and lead data collection at BIDMC.",
               "include_by_default": true
             }
           ],
-          "sources": ["cv_merge_19_02_2026.tex", "cv_phd_11_25.tex"]
+          "sources": ["cv_merge_19_02_2026.tex", "cv_phd_11_25.tex", "User clarification of BIDMC project leadership and scope, October 22, 2026"]
         },
         {
           "id": "mit-metaconscious",
