@@ -41,6 +41,23 @@ def latex_escape(value: str) -> str:
     )
 
 
+def linked_text(text: str, links: dict[str, str] | None = None) -> str:
+    """Add explicit links without changing visible text or its LaTeX escaping."""
+    if not links:
+        return latex_escape(text)
+    for label, url in links.items():
+        if not label or text.count(label) != 1:
+            raise ValueError(f"Link label must occur exactly once: {label!r}")
+        if not url.startswith(("https://", "http://")):
+            raise ValueError(f"Expected an HTTP(S) link: {url!r}")
+    parts = re.split("(" + "|".join(re.escape(label) for label in links) + ")", text)
+    return "".join(
+        f"\\href{{{latex_escape(links[part])}}}{{{latex_escape(part)}}}"
+        if part in links else latex_escape(part)
+        for part in parts
+    )
+
+
 def load_data(path: Path) -> dict[str, Any]:
     with path.open(encoding="utf-8") as handle:
         data = json.load(handle)
@@ -91,7 +108,7 @@ def render_bullets(item: dict[str, Any], include_all: bool) -> list[str]:
     if not bullets:
         return []
     lines = [r"      \resumeItemListStart"]
-    lines.extend(f"        \\resumeItem{{{latex_escape(bullet['text'])}}}" for bullet in bullets)
+    lines.extend(f"        \\resumeItem{{{linked_text(bullet['text'], bullet.get('links'))}}}" for bullet in bullets)
     lines.append(r"      \resumeItemListEnd")
     return lines
 
@@ -100,7 +117,8 @@ def render_subheading(item: dict[str, Any], include_all: bool) -> list[str]:
     lines = [
         r"    \resumeSubheading",
         f"      {{{latex_escape(item['title'])}}}{{{latex_escape(item['date'])}}}",
-        f"      {{{latex_escape(item['subtitle'])}}}{{{latex_escape(item['location'])}}}",
+        f"      {{{linked_text(item['subtitle'], item.get('subtitle_links'))}}}"
+        f"{{{linked_text(item['location'], item.get('location_links'))}}}",
     ]
     lines.extend(render_bullets(item, include_all))
     return lines
@@ -152,7 +170,7 @@ def render_publication(item: dict[str, Any]) -> str:
         + item["authors_latex"]
         + f" ({latex_escape(item['year_venue'])}). "
         + r"\textit{"
-        + latex_escape(item["title"])
+        + linked_text(item["title"], item.get("title_links"))
         + title_punctuation
         + "}"
         + suffix_latex
