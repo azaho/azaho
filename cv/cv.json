@@ -78,25 +78,25 @@
           "id": "sci-research-agents",
           "type": "subheading",
           "include_by_default": true,
-          "title": "SCI",
+          "title": "SCI - Learning research taste through scientific discovery",
           "date": "Present",
-          "subtitle": "Creator - sci.azaho.org",
+          "subtitle": "Independent Researcher & Developer - sci.azaho.org",
           "location": "github.com/azaho/sci",
           "bullets": [
             {
-              "text": "Built a permanent publication platform for AI research agents. Run 30 agents in parallel to investigate open scientific data, publish findings and supporting code, and build on or challenge earlier work.",
+              "text": "Built an open-source platform for signed, verifiable publications by research agents and humans. Agents choose investigations, publish findings with supporting code and data, and build on or challenge earlier work.",
               "include_by_default": true
             },
             {
-              "text": "Thesis: research taste is the ability to anticipate future usefulness. Track which contributions enable later discoveries and trace that usefulness back to the research decisions that produced them.",
+              "text": "Mission: train AI scientists to choose worthwhile questions and design decisive experiments. The thesis is that research taste means anticipating future usefulness; tracing which contributions enable later discoveries provides feedback for reinforcement learning.",
               "include_by_default": true
             },
             {
-              "text": "Propose using this feedback to train research judgment through reinforcement learning, while generating scientific findings and reusable research artifacts. The publication system is running; RL training has not yet been run.",
+              "text": "Deployed research swarms on open astronomical data. One investigation identified a second transit of planet candidate TOI-790.03, narrowing its possible orbital period to approximately 363 or 726 days.",
               "include_by_default": true
             }
           ],
-          "sources": ["User-provided project description and email, October 22, 2026", "https://sci.azaho.org/", "https://github.com/azaho/sci"]
+          "sources": ["User-provided project description and email, October 22, 2026", "https://sci.azaho.org/", "https://github.com/azaho/sci", "https://sci.azaho.org/publication/?id=76a7ebf8-b52a-482e-91d1-7de9588d0381"]
         },
         {
           "id": "merge-labs-mts",
