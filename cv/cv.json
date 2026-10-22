@@ -131,7 +131,7 @@
           "location": "Cambridge, MA",
           "bullets": [
             {
-              "text": "Created the Neuroprobe benchmark to evaluate foundation models of intracranial neural activity based on a publicly available neural dataset (BrainTreebank; sEEG; Zahorodnii et al. 2025).",
+              "text": "Created the Neuroprobe benchmark to evaluate foundation models of intracranial neural activity based on a publicly available neural dataset (BrainTreebank; sEEG; Zahorodnii et al. 2026).",
               "links": {"Neuroprobe": "https://neuroprobe.dev/"},
               "include_by_default": true
             },
@@ -278,7 +278,7 @@
           "type": "publication",
           "include_by_default": true,
           "authors_latex": "\\textbf{Zahorodnii, A.*}, Wang, C.*, Chau, G.*, Stankovits, B., Moraitaki, C., Gross, E., Brady, A., Barbu, A., Katz, B., Fiete, I. R.",
-          "year_venue": "2025, arXiv",
+          "year_venue": "2026, arXiv",
           "title": "Neuroprobe: Evaluating Intracranial Brain Responses to Naturalistic Stimuli",
           "title_links": {"Neuroprobe: Evaluating Intracranial Brain Responses to Naturalistic Stimuli": "https://arxiv.org/abs/2509.21671"},
           "suffix": "",
