@@ -117,3 +117,39 @@ li a {
       flex-direction: column;
   }
 }
+
+.sci-project {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sci-figure {
+    width: 100%;
+    max-width: 300px;
+    margin: 0;
+}
+
+/* Show the two transit panels (y=90..410) from the 1235 x 964 figure. */
+.sci-figure-crop {
+    display: block;
+    aspect-ratio: 1235 / 320;
+    overflow: hidden;
+}
+
+.sci-figure img {
+    width: 100%;
+    height: auto;
+    transform: translateY(-9.3361%);
+}
+
+.sci-figure figcaption {
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+.sci-figure-license {
+    display: block;
+    font-size: 10px;
+}
