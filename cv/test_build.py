@@ -68,6 +68,26 @@ class BuildCvTests(unittest.TestCase):
     def test_plain_text_is_latex_escaped(self) -> None:
         self.assertEqual(build.latex_escape("R&D_100%"), r"R\&D\_100\%")
 
+    def test_links_preserve_and_escape_visible_text(self) -> None:
+        self.assertEqual(
+            build.linked_text("Read R&D_100% now.", {"R&D_100%": "https://example.org/?a=1&b=2"}),
+            r"Read \href{https://example.org/?a=1\&b=2}{R\&D\_100\%} now.",
+        )
+        for text, links in [
+            ("Read SCI", {"missing": "https://example.org"}),
+            ("SCI SCI", {"SCI": "https://example.org"}),
+            ("SCI", {"SCI": "javascript:alert(1)"}),
+        ]:
+            with self.subTest(text=text, links=links), self.assertRaises(ValueError):
+                build.linked_text(text, links)
+
+    def test_project_and_publication_links_are_rendered(self) -> None:
+        rendered = self.render()
+        self.assertIn(r"\href{https://sci.azaho.org/}{sci.azaho.org}", rendered)
+        self.assertIn(r"\href{https://github.com/azaho/sci}{github.com/azaho/sci}", rendered)
+        self.assertIn(r"\href{https://neuroprobe.dev/}{Neuroprobe}", rendered)
+        self.assertIn(r"\href{https://arxiv.org/abs/2509.21671}{Neuroprobe:", rendered)
+
     def test_meng_graduation_details(self) -> None:
         education = next(section for section in self.data["sections"] if section["id"] == "education")
         meng = next(item for item in education["items"] if item["id"] == "mit-meng")

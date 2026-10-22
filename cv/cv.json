@@ -75,6 +75,33 @@
       "title": "EXPERIENCE",
       "items": [
         {
+          "id": "sci-research-agents",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "SCI - Developing AI research taste through scientific discovery",
+          "date": "Present",
+          "subtitle": "Independent Researcher & Developer - sci.azaho.org",
+          "subtitle_links": {"sci.azaho.org": "https://sci.azaho.org/"},
+          "location": "github.com/azaho/sci",
+          "location_links": {"github.com/azaho/sci": "https://github.com/azaho/sci"},
+          "bullets": [
+            {
+              "text": "Built an open-source platform for signed, verifiable publications by research agents and humans. Agents choose investigations, publish findings with supporting code and data, and build on or challenge earlier work.",
+              "include_by_default": true
+            },
+            {
+              "text": "Mission: train AI scientists to choose worthwhile questions and design decisive experiments. The thesis is that research taste means anticipating future usefulness; tracing which contributions enable later discoveries provides feedback for reinforcement learning.",
+              "include_by_default": true
+            },
+            {
+              "text": "Deployed research swarms on open astronomical data. One investigation identified a second transit of planet candidate TOI-790.03, narrowing its possible orbital period to approximately 363 or 726 days.",
+              "links": {"TOI-790.03": "https://sci.azaho.org/publication/?id=76a7ebf8-b52a-482e-91d1-7de9588d0381"},
+              "include_by_default": true
+            }
+          ],
+          "sources": ["User-provided project description and email, October 22, 2026", "https://sci.azaho.org/", "https://github.com/azaho/sci", "https://sci.azaho.org/publication/?id=76a7ebf8-b52a-482e-91d1-7de9588d0381"]
+        },
+        {
           "id": "merge-labs-mts",
           "type": "subheading",
           "include_by_default": true,
@@ -88,7 +115,7 @@
               "include_by_default": true
             },
             {
-              "text": "Intersection of neuroscience and machine learning: representation learning, brain foundation models",
+              "text": "Intersection of neuroscience and machine learning: representation learning, brain foundation models.",
               "include_by_default": true
             }
           ],
@@ -98,13 +125,14 @@
           "id": "mit-fiete-lab",
           "type": "subheading",
           "include_by_default": true,
-          "title": "McGovern Institute for Brain Research at MIT",
+          "title": "Graduate Researcher -> Research Affiliate",
           "date": "February 2024 - Present",
-          "subtitle": "Graduate Researcher -> Research Affiliate, MIT Fiete Lab (Prof. Ila Fiete)",
+          "subtitle": "MIT Fiete Lab (Prof. Ila Fiete), McGovern Institute for Brain Research",
           "location": "Cambridge, MA",
           "bullets": [
             {
-              "text": "Modeling neural dynamics of human intracranial data (sEEG/ECoG), in order to build predictive models of neural responses to sensory stimuli and direct intracranial electrical stimulation. The goal is to optimize stimulation protocols to achieve desired, pre-determined stimulation responses in the brain.",
+              "text": "Created the Neuroprobe benchmark to evaluate foundation models of intracranial neural activity based on a publicly available neural dataset (BrainTreebank; sEEG; Zahorodnii et al. 2026).",
+              "links": {"Neuroprobe": "https://neuroprobe.dev/"},
               "include_by_default": true
             },
             {
@@ -112,7 +140,7 @@
               "include_by_default": true
             },
             {
-              "text": "Created the Neuroprobe benchmark to evaluate foundation models of intracranial neural activity based on a publicly available neural dataset (BrainTreebank; sEEG; Zahorodnii et al. 2025).",
+              "text": "Modeling neural dynamics of human intracranial data (sEEG/ECoG), in order to build predictive models of neural responses to sensory stimuli and direct intracranial electrical stimulation. The goal is to optimize stimulation protocols to achieve desired, pre-determined stimulation responses in the brain.",
               "include_by_default": true
             },
             {
@@ -136,19 +164,19 @@
           "location": "Boston, MA",
           "bullets": [
             {
-              "text": "Established the collaboration with my P.I. (Prof. Ila Fiete's) group at MIT, with my role in the design of novel sEEG experiments: studying rapid processing of visual stimuli and eliciting brain responses to direct intracranial electrical stimulation.",
+              "text": "Established and lead a joint research project between MIT's Fiete Lab (Prof. Ila Fiete) and BIDMC, spanning experimental design, hardware integration, work with patients, data collection, model development, and testing.",
               "include_by_default": true
             },
             {
-              "text": "Drafted and submitted the experimental protocol for IRB review.",
+              "text": "Study how the human brain responds to rapidly presented images and direct electrical stimulation, using implanted electrodes (sEEG). Build and test predictive models to design stimulation protocols that produce desired brain responses.",
               "include_by_default": true
             },
             {
-              "text": "Developed the software for the SEEG Rapid Serial Visual Presentation (RSVP) paradigm task, and currently am enrolling SEEG patients at BIDMC to the study and leading the data collection.",
+              "text": "Drafted and submitted the experimental protocol for IRB review. Developed the software for the Rapid Serial Visual Presentation (RSVP) task; currently enroll patients and lead data collection at BIDMC.",
               "include_by_default": true
             }
           ],
-          "sources": ["cv_merge_19_02_2026.tex", "cv_phd_11_25.tex"]
+          "sources": ["cv_merge_19_02_2026.tex", "cv_phd_11_25.tex", "User clarification of BIDMC project leadership and scope, October 22, 2026"]
         },
         {
           "id": "mit-metaconscious",
@@ -250,8 +278,9 @@
           "type": "publication",
           "include_by_default": true,
           "authors_latex": "\\textbf{Zahorodnii, A.*}, Wang, C.*, Chau, G.*, Stankovits, B., Moraitaki, C., Gross, E., Brady, A., Barbu, A., Katz, B., Fiete, I. R.",
-          "year_venue": "2025, arXiv",
+          "year_venue": "2026, arXiv",
           "title": "Neuroprobe: Evaluating Intracranial Brain Responses to Naturalistic Stimuli",
+          "title_links": {"Neuroprobe: Evaluating Intracranial Brain Responses to Naturalistic Stimuli": "https://arxiv.org/abs/2509.21671"},
           "suffix": "",
           "sources": ["cv_merge_19_02_2026.tex", "arXiv:2509.21671v2"]
         },
@@ -262,6 +291,7 @@
           "authors_latex": "\\textbf{Zahorodnii, A.}, Mendoza-Halliday, D., Martinez-Trujillo, J. C., Qian, N., Desimone, R., Cueva, C. J.",
           "year_venue": "2025, bioRxiv, under revision at Nature Neuroscience",
           "title": "Overcoming Sensory-Memory Interference in Working Memory Circuits",
+          "title_links": {"Overcoming Sensory-Memory Interference in Working Memory Circuits": "https://www.biorxiv.org/content/10.1101/2025.03.17.643652v1.abstract"},
           "suffix": "",
           "sources": ["cv_merge_19_02_2026.tex"]
         },
@@ -272,6 +302,7 @@
           "authors_latex": "\\textbf{Zahorodnii, A.}",
           "year_venue": "2025",
           "title": "Improving World Models Using Linear Probes",
+          "title_links": {"Improving World Models Using Linear Probes": "https://arxiv.org/abs/2504.03861"},
           "suffix": "ICLR2025 Workshop on World Models & arXiv",
           "sources": ["cv_merge_19_02_2026.tex"]
         },
@@ -282,6 +313,7 @@
           "authors_latex": "\\textbf{Zahorodnii, A.}, van den Bosch, J.J.F., Charest, I., Summerfield, C., Fiete, I. R.",
           "year_venue": "2025, arXiv",
           "title": "Paper Quality Assessment Based on Individual Wisdom Metrics from Open Peer Review",
+          "title_links": {"Paper Quality Assessment Based on Individual Wisdom Metrics from Open Peer Review": "https://arxiv.org/abs/2501.13014"},
           "suffix": "",
           "sources": ["cv_merge_19_02_2026.tex"]
         },
@@ -292,6 +324,7 @@
           "authors_latex": "Tan, J. B., Müller, E., \\textbf{Zahorodnii, A.}, Shine, J. M.",
           "year_venue": "2024",
           "title": "The Engagement of the Cerebellum and Basal Ganglia Enhances Expertise in a Sensorimotor Adaptation Task",
+          "title_links": {"The Engagement of the Cerebellum and Basal Ganglia Enhances Expertise in a Sensorimotor Adaptation Task": "https://doi.org/10.1162/imag_a_00271"},
           "suffix": "Imaging Neuroscience, 2:1-20. MIT Press",
           "sources": ["cv_merge_19_02_2026.tex"]
         },
@@ -302,6 +335,7 @@
           "authors_latex": "\\textbf{Zahorodnii, A.}, Yanovsky, D.",
           "year_venue": "2025",
           "title": "Project Jenkins: Monkey Thinks, Robot Moves... and Back?",
+          "title_links": {"Project Jenkins: Monkey Thinks, Robot Moves... and Back?": "https://www.808robots.com/projects/jenkins"},
           "suffix": "MIT (arXiv)",
           "sources": ["cv_merge_19_02_2026.tex"]
         }
@@ -497,6 +531,7 @@
           "title": "Co-Founder",
           "date": "February 2023 - January 2025",
           "subtitle": "Ukraine Leadership & Technology Academy (ULTA) --- www.ultacademy.org",
+          "subtitle_links": {"www.ultacademy.org": "https://ultacademy.org/"},
           "location": "Cambridge, MA & Kyiv, Ukraine",
           "bullets": [
             {
