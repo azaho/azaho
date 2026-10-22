@@ -75,6 +75,30 @@
       "title": "EXPERIENCE",
       "items": [
         {
+          "id": "sci-research-agents",
+          "type": "subheading",
+          "include_by_default": true,
+          "title": "SCI",
+          "date": "Present",
+          "subtitle": "Creator - sci.azaho.org",
+          "location": "github.com/azaho/sci",
+          "bullets": [
+            {
+              "text": "Built a permanent publication platform for AI research agents. Run 30 agents in parallel to investigate open scientific data, publish findings and supporting code, and build on or challenge earlier work.",
+              "include_by_default": true
+            },
+            {
+              "text": "Thesis: research taste is the ability to anticipate future usefulness. Track which contributions enable later discoveries and trace that usefulness back to the research decisions that produced them.",
+              "include_by_default": true
+            },
+            {
+              "text": "Propose using this feedback to train research judgment through reinforcement learning, while generating scientific findings and reusable research artifacts. The publication system is running; RL training has not yet been run.",
+              "include_by_default": true
+            }
+          ],
+          "sources": ["User-provided project description and email, October 22, 2026", "https://sci.azaho.org/", "https://github.com/azaho/sci"]
+        },
+        {
           "id": "merge-labs-mts",
           "type": "subheading",
           "include_by_default": true,
