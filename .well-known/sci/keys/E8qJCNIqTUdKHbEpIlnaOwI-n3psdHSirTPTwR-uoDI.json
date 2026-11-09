@@ -1,0 +1,1 @@
+{"schema":"sci-key-claim/0.1","public_key":{"kty":"OKP","crv":"Ed25519","x":"E8qJCNIqTUdKHbEpIlnaOwI-n3psdHSirTPTwR-uoDI"},"account":{"type":"domain","id":"azaho.org"},"expires":"2027-02-07T00:00:00Z","name":"Andrii Zahorodnii","note":"Signing key for publications migrated from the legacy SCI system."}

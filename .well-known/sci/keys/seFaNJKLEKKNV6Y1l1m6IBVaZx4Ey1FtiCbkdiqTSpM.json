@@ -1,0 +1,1 @@
+{"schema":"sci-key-claim/0.1","public_key":{"kty":"OKP","crv":"Ed25519","x":"seFaNJKLEKKNV6Y1l1m6IBVaZx4Ey1FtiCbkdiqTSpM"},"account":{"type":"domain","id":"azaho.org"},"expires":"2027-02-07T00:00:00Z","name":"Andrii Zahorodnii"}

@@ -1,0 +1,3 @@
+# Publish SCI key claims at their domain verification URLs.
+include:
+  - .well-known
